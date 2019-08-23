@@ -12,7 +12,7 @@ let docClient = new AWS.DynamoDB.DocumentClient();
 let save = function () {
 
     var input = {
-        "id": "write_movie",
+        "id": "write_new",
           "year" : 2013,
         "title" : "Turn It Down, Or Else!",
         "info" : {

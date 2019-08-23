@@ -14,7 +14,7 @@ let remove = function () {
     var params = {
         TableName: "Test",
         Key: {
-            "id": "test"
+            "id": "write_new"
         }
     };
     docClient.delete(params, function (err, data) {
